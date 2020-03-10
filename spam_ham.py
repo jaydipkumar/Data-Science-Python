@@ -6,7 +6,7 @@ from sklearn.feature_extraction.text import CountVectorizer,TfidfTransformer
 
 # Loading the data set
 
-email_data = pd.read_csv("E:\\Bokey\\Excelr Data\\Python Codes\\all_py\\Naive Bayes\\ham_spam.csv",encoding = "ISO-8859-1")
+email_data = pd.read_csv("~/Downloads/Data Science/data set/ham_spam.csv",encoding = "ISO-8859-1")
 
 
 # cleaning data 

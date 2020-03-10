@@ -1,6 +1,6 @@
 import pandas as pd 
 import numpy as np
-uni = pd.read_csv("E:\\Bokey\\Excelr Data\\Python Codes\\all_py\\Clustering\\Universities.csv")
+uni = pd.read_csv("~/Downloads/Data Science/data set/Universities.csv")
 uni.describe()
 uni.head()
 

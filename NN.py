@@ -6,7 +6,7 @@ from keras.layers import Dense, Activation,Layer,Lambda
 
 from sklearn.cross_validation import train_test_split
 
-wbcd = pd.read_csv("E:\\Bokey\\Excelr Data\\R Codes\\knn\\wbcd.csv")
+wbcd = pd.read_csv("~/Downloads/Data Science/data set/wbcd.csv")
 
 wbcd.head(3)
 wbcd.drop(["id"],axis=1,inplace=True) # Dropping the uncessary column 

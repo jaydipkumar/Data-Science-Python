@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-iris = pd.read_csv("E:\\Bokey\\Excelr Data\\Python Codes\\all_py\\KNN\\iris.csv")
+iris = pd.read_csv("~/Downloads/Data Science/data set/iris.csv")
 
 # Training and Test data using 
 from sklearn.model_selection import train_test_split

@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 
 # reading a csv file using pandas library
-wcat=pd.read_csv("/Users/jaydippipariya/Downloads/wc-at.csv")
+wcat=pd.read_csv("~/Downloads/Data Science/data set/wc-at.csv")
 wcat.columns
 
 plt.hist(wcat.Waist)

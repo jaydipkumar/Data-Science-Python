@@ -8,7 +8,7 @@ from mlxtend.frequent_patterns import apriori,association_rules
 
 groceries = []
 # As the file is in transaction data we will be reading data directly 
-with open("E:\\bokey\\Excelr Data\\Python Codes\\association rules\\groceries.csv") as f:
+with open("~/Downloads/Data Science/data set/groceries.csv") as f:
     groceries = f.read()
 
 

@@ -11,7 +11,7 @@ from sklearn.metrics import classification_report
 
 # loading claimants data 
 
-claimants = pd.read_csv("E:\\Bokey\\Excelr Data\\Python Codes\\all_py\\Logistic Regression\\claimants.csv")
+claimants = pd.read_csv("~/Downloads/Data Science/data set/claimants.csv")
 
 claimants.head(10)
 # Droping first column 

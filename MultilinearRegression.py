@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # loading the data
-cars = pd.read_csv("E:\\Bokey\\Excelr Data\\Python Codes\\all_py\\Multilinear Regression\\cars.csv")
+cars = pd.read_csv("~/Downloads/Data Science/data set/cars.csv")
 
 # to get top 6 rows
 cars.head(40) # to get top n rows use cars.head(10)

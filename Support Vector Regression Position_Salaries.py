@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[61]:
-
 
 #import libabry
 
@@ -12,17 +7,10 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVR
 
-
-# In[62]:
-
-
 #read dataset
 dataset = pd.read_csv('~/Downloads/Data Science/data set/Position_Salaries.csv')
 X = pd.DataFrame(dataset, columns = ['Gender', 'Age'])
 y = pd.DataFrame(dataset, columns = ['EstimatedSalary'])
-
-
-# In[68]:
 
 
 #Feature Scaling
@@ -32,15 +20,9 @@ X = sc_X.fit_transform(X)
 y = sc_y.fit_transform(y)
 
 
-# In[69]:
-
-
 #build model
 regressor = SVR(kernel = 'rbf')
 regressor.fit(X, y)
-
-
-# In[ ]:
 
 
 #predicte new value
@@ -49,8 +31,6 @@ y_pred = regressor.predict(6.5)
 y_pred = sc_y.inverse_transform(y_pred) 
 view raw
 
-
-# In[70]:
 
 
 # Visualize SVR
@@ -62,10 +42,5 @@ plt.title('Truth or Bluff (SVR)')
 plt.xlabel('Position level')
 plt.ylabel('Salary')
 plt.show()
-
-
-# In[ ]:
-
-
 
 
